@@ -1,0 +1,25 @@
+                                                                                              HTML
+headings:
+-->there are 6 types of headings in html.they are
+     h1,h2,h3,h4,h5,h6
+syntax for headings is:
+<h1>information </h1>
+PARAGRAPH:
+-->if we want to display paragraph we have to open and close the attribute ''p''
+syntax:
+<p> paragraph </p>
+                                                               CSS
+types of selectors:
+
+1)basic selectors:
+         class(.)
+         id(#)
+         element or tag selector(div,h4,etc..)
+         group selector(p etc..)
+         universal selector(*)
+2)relational selectors:
+         adjacent sibling selector
+         general sibling selector 
+         child sibling selector
+http://16.16.1.188/
+

@@ -1,0 +1,54 @@
+.cardbody{
+    font-size: 35px;
+    font: italic;
+    border: 3px solid black;
+    padding: 1%;
+    margin: 1%;
+    /* text-align: center; */
+}
+img{
+    border-radius: 10%;
+    padding: 2%;
+}
+button{
+     background-color: darkgreen;
+     color: white;
+}
+h3{
+    font-size: 40px;
+    text-align: center;
+    color: darkred;
+}
+s{
+    color: crimson;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+}
+@media only screen and ( min-width:320px ) and ( max-width:480px ) {
+    .card{
+        display: flex;
+        flex-direction: column;
+    }
+    .cardbody{
+        width: 95%;
+        font-size: 40px;
+        background-color: cyan;
+    }
+    button{
+        font-size: 30px;
+        font: bold;
+    }
+}
+    @media only screen and ( min-width:481px ) and ( max-width:780px ) {
+        .cardbody{
+          display: flex;
+          flex-direction: row;
+        }
+        button{
+            font-size: 45px;
+            font: bold;
+         }
+
+    }
